@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Title</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Cars Listings</h1>
+    @using Parcels.Models;
+    @if (Model.Count == 0)
+    {
+      <p>There are no Parcels listed.</p>
+    }
+    <ul>
+      @foreach (Parcel parcel in Model)
+      {
+        <li>Volume: @parcel.Volume()</li>
+        <li>Cost To Ship: $@Parcel.CostToShip()</li>
+        <br>
+      }
+    </ul>
+  </body>
+</html>
