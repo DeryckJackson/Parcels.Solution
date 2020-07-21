@@ -2,14 +2,14 @@ using System.Collections.Generic;
 
 namespace Parcels.Models
 {
-  public class Parcels
+  public class Parcel
   {
     private int _width;
     private int _height;
     private int _depth;
-    private static List<Parcels> _instances = new List<Parcels>();
+    private static List<Parcel> _instances = new List<Parcel>();
 
-    public Parcels(int width, int height, int depth)
+    public Parcel(int width, int height, int depth)
     {
       _width = width;
       _height = height;
@@ -18,7 +18,7 @@ namespace Parcels.Models
       _instances.Add(this);
     }
 
-    public List<Parcels> GetAll()
+    public static List<Parcel> GetAll()
     {
       return _instances;
     }

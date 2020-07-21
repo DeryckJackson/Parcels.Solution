@@ -9,7 +9,7 @@ namespace Parcels.Controllers
     [HttpGet("/parcels")]
     public ActionResult Index()
     {
-      List<Parcels> allParcels = Parcels.GetAll();
+      List<Parcel> allParcels = Parcel.GetAll();
       return View(allParcels);
     }
 
@@ -22,7 +22,7 @@ namespace Parcels.Controllers
     [HttpGet("/parcels")]
     public ActionResult Create(int width, int height, int depth)
     {
-      Parcels myParcel = new Parcels (width, height, depth);
+      Parcel myParcel = new Parcel (width, height, depth);
       return RedirectToAction("Index");
     }
   }
