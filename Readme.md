@@ -2,7 +2,7 @@
 
 #### _{Brief description of application}, 2020 ver 1.0_
 
-#### By _Ian Gregg & (Co author)_
+#### By _Ian Scott & Deryck Jackson_
 [new-template-for-code-C]()
 
 ## Description
@@ -46,7 +46,7 @@ _The Technologies used in the making of this software was Chrome browser, Visual
 
 ### License
 
-Copyright (c) 2020 **_Ian Gregg_**
+Copyright (c) 2020 **_Ian Scott & Deryck Jackson_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.

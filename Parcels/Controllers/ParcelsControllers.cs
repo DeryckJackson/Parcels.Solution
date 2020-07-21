@@ -19,7 +19,7 @@ namespace Parcels.Controllers
       return View();
     }
 
-    [HttpGet("/parcels")]
+    [HttpPost("/parcels")]
     public ActionResult Create(int width, int height, int depth)
     {
       Parcel myParcel = new Parcel (width, height, depth);
