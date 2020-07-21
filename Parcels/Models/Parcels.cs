@@ -20,7 +20,7 @@ namespace Parcels.Models
 
     public List<Parcels> GetAll()
     {
-      return _instances.GetAll();
+      return _instances;
     }
 
     public int Volume()
